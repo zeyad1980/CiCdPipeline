@@ -18,7 +18,7 @@ public class HelloServlet extends HttpServlet {
 
         resp.setHeader("Content-Type", "text/html");
         resp.setStatus(200);
-        resp.getOutputStream().println("<h1>Hello World from a deployed wer file!</h1>");
+        resp.getOutputStream().println("<h1>Hello World from a deployed wer!</h1>");
     }
 
     @Override
